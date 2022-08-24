@@ -10,7 +10,6 @@ on:
   schedule:
     - cron: "0 * * * *"
     
-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  
 jobs:
 
   build:
