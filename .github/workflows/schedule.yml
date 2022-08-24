@@ -10,17 +10,17 @@ on:
   schedule:
     - cron: "0 * * * *"
     
-
+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  
 jobs:
 
   build:
     name: Upddate-gist
     runs-on: ubuntu-latest
     env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: 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  
           GIST_ID: 8bf56353bcb3a8e798b55b546b9619cf
-          STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
-          STEAM_ID: ${{ secrets.STEAM_ID }}
+          STEAM_API_KEY: 7B27F81FB0A67D96B2ED2854A08A0488
+          STEAM_ID: 76561199383788952
     steps:
 
     - name: Set up Go 1.x
